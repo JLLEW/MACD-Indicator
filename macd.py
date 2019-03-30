@@ -50,7 +50,7 @@ import random
 
 
 #basic buying/selling simulation algorithm
-#it checks if macd/signal lines crossed and according to position of lines takes decision about buying or selling
+#it checks if macd/signal lines crossed and according to the position of lines takes decision about buying or selling
 def simulation(data_set, money, simul_time, plot=""):
     start_money = money
     stocks = 0.0
